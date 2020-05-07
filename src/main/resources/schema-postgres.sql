@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS product;
+CREATE TABLE product(productId serial PRIMARY KEY, productName VARCHAR(255),productDescription VARCHAR(255), numberOfPiecePerCase integer,productPrice double,pricePerPiece double,productMRP double,createDateTime timestamp,createdUser VARCHAR(255),updateDateTime timestamp,lastModifiedUser VARCHAR(255));
